@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #fff;;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe, 
+.logo {
+    align-self: flex-end;
+}
+
+/* Gallery Section */
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
